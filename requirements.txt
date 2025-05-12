@@ -1,0 +1,27 @@
+numpy>=1.19.5
+pandas>=1.3.0
+torch>=1.9.0
+torchvision>=0.10.0
+matplotlib>=3.4.0
+scikit-learn>=0.24.2
+seaborn>=0.11.0
+tqdm>=4.62.0
+requests>=2.25.1
+pillow>=8.2.0
+transformers>=4.10.0
+colorama>=0.4.4
+nltk>=3.6.0
+ta>=0.7.0
+pytz>=2021.1
+python-dotenv>=0.19.0
+tensorflow>=2.7.0
+yfinance>=0.1.63
+talib-binary>=0.4.19
+statsmodels>=0.13.0
+pmdarima>=1.8.2
+arch>=5.0.0
+scipy>=1.7.0
+# 필요에 따라 아래 패키지도 추가
+# requests
+# tqdm
+# pillow 
