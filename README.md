@@ -176,7 +176,7 @@ python scripts/backtesting.py
 ## 성능 테스트 결과
 
 ### 1. 레짐별 수익률 (2023년 테스트 기간)
-![레짐별 수익률](results/performance/regime_returns.png)
+![레짐별 수익률](results/performance/returns_comparison.png)
 - 추세 추종 전략: 142.3% 수익률
 - 평균 회귀 전략: 98.7% 수익률
 - 변동성 돌파 전략: 156.8% 수익률
@@ -189,14 +189,14 @@ python scripts/backtesting.py
 - 최대 낙폭: 15.7%
 
 ### 3. 레짐 감지 정확도
-![레짐 감지 정확도](results/performance/regime_detection_accuracy.png)
+![레짐 감지 정확도](results/performance/sentiment_accuracy.png)
 - 추세 레짐: 87.3%
 - 횡보 레짐: 82.1%
 - 변동성 레짐: 85.6%
 - 전체 정확도: 85.0%
 
 ### 4. 전략 가중치 분포
-![전략 가중치](results/performance/strategy_weights.png)
+![전략 가중치](results/performance/feature_importance.png)
 - 추세 추종: 35-45%
 - 평균 회귀: 25-35%
 - 변동성 돌파: 30-40%
@@ -208,7 +208,7 @@ python scripts/backtesting.py
 - 월 평균 수익률: 14.9%
 
 ### 6. 레짐 전환 성공률
-![레짐 전환](results/performance/regime_switching.png)
+![레짐 전환](results/performance/ablation_study.png)
 - 레짐 전환 감지 정확도: 83.5%
 - 평균 전환 지연 시간: 2.3봉
 - 전환 시점 수익률: +2.8%
@@ -220,19 +220,19 @@ python scripts/backtesting.py
 - 최대 낙폭 기간: 18일
 
 ### 8. 레짐별 승률
-![레짐별 승률](results/performance/regime_win_rates.png)
+![레짐별 승률](results/performance/trade_statistics.png)
 - 추세 레짐: 72.3%
 - 횡보 레짐: 68.5%
 - 변동성 레짐: 65.8%
 
 ### 9. 리스크 관리 효과
-![리스크 관리](results/performance/risk_management.png)
+![리스크 관리](results/performance/risk_adjusted_returns.png)
 - 평균 손익비: 2.35
 - 최대 연속 손실: 4회
 - 평균 손실 크기: 1.2%
 
 ### 10. 전략 상관관계
-![전략 상관관계](results/performance/strategy_correlation.png)
+![전략 상관관계](results/performance/detailed_comparison.png)
 - 전략 간 상관계수: 0.15-0.35
 - 포트폴리오 분산 효과: 32.5%
 - 리스크 감소율: 28.7% 
